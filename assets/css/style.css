@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Raleway';
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+.banner {
+  background-image: url(../images/banner.png), -webkit-linear-gradient(black, #3ba1cd56, black);
+  height: 600px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-content button {
+  color: #33ABD8;
+  border: 1px solid #33ABD8;
+  background-color: transparent;
+  padding: 15px 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.24);
+  border-radius: 50%;
+  height: 268px;
+  width: 268px;
+  margin: 50px auto 30px;
+}
+
+.texto-azul {
+  color: #33ABD8;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+h1 {
+  background-image: linear-gradient(#33ABD8, #1472B7);
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.747);
+  max-width: 800px;
+}
+
+.modules-list {
+  color: white;
+  margin: 15px 25% 0 25%;
+}
+
+.modules-list span {
+  color: #33ABD8;
+}
+
+.module {
+  background-color: rgba(128, 128, 128, 0.404);
+  border: 1px solid #33ABDB;
+  margin: 25px;
+  max-width: 500px;
+  padding: 15px 50px;
+  border-radius: 60px;
+  box-shadow: inset 4px 4px 2px rgba(0, 0, 0, 0.541);
+}
+
+#course-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #33ABD8;
+}
+
+#transform-world {
+  background-image: url(../images/woman-code.png);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+  border-top: 1px solid #33ABD8;
+  border-bottom: 1px solid #33ABD8;
+}
+
+#transform-world h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 2px 2px #33ABD8;
+  text-transform: lowercase;
+  color: white;
+  margin-left: 150px;
+  padding-top: 80px;
+}
+
+#professional-challenges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-image: -webkit-linear-gradient(black, #33acd833);
+  border-top: 1px solid #33ABDB;
+  margin-top: 60px;
+  padding: 60px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
