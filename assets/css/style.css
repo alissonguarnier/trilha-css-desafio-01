@@ -132,6 +132,10 @@ p {
   align-items: center;
 }
 
+#professional-challenges img {
+  max-width: 50%;
+}
+
 footer {
   background-image: -webkit-linear-gradient(black, #33acd833);
   border-top: 1px solid #33ABDB;
